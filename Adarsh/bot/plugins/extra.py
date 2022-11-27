@@ -17,7 +17,7 @@ async def maintainers(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="I am Made By [GreyMatter's Bot](https://t.me/DS_Botz)",
+                    text="I am Made By [DS Botz](https://t.me/DS_Botz)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
