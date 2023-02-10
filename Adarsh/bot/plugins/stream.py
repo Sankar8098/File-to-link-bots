@@ -75,11 +75,11 @@ async def private_receive_handler(c: Client, m: Message):
         except UserNotParticipant:
             await c.send_message(
                 chat_id=m.chat.id,
-                text="""<i>𝙹𝙾𝙸𝙽 UPDATES CHANNEL 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴 🔐</i>""",
+                text="""𝐫𝐬𝐭 𝐛𝐮𝐲 𝐭𝐡𝐞 𝐩𝐫𝐞𝐦𝐢𝐮𝐦 𝐚𝐧𝐝 𝐉𝐨𝐢𝐧 𝐭𝐡𝐞 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 𝐜𝐡𝐚𝐧𝐧𝐞𝐥. 𝐎𝐧𝐥𝐲 50𝐫𝐬/𝐦𝐨𝐧𝐭𝐡. \n\n𝐂𝐨𝐧𝐭𝐚𝐜𝐭:- [@𝐈𝐫𝐟𝐚𝐧50786](https://t.me/Irfan50786)""",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Jᴏɪɴ ɴᴏᴡ 🔓", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
+                            InlineKeyboardButton("𝐉𝐨𝐢𝐧 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url=f"https://t.me/+kLmiK2PhEyU1NmFl")
                         ]
                     ]
                 ),
