@@ -60,7 +60,7 @@ async def start(b, m):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Jᴏɪɴ ɴᴏᴡ 🔓", url=f"https://t.me/+kLmiK2PhEyU1NmFl")
+                            InlineKeyboardButton("𝐉𝐨𝐢𝐧 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url=f"https://t.me/+kLmiK2PhEyU1NmFl")
                         ]
                     ]
                 ),
