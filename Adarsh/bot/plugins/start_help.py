@@ -55,12 +55,12 @@ async def start(b, m):
         except UserNotParticipant:
              await StreamBot.send_photo(
                 chat_id=m.chat.id,
-                photo="https://telegra.ph/file/19eeb26fa2ce58765917a.jpg",
-                caption="<i>𝙹𝙾𝙸𝙽 CHANNEL 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴🔐</i>",
+                photo="https://telegra.ph/file/ec70f57fe79b1cb8ce8c0.jpg",
+                caption="𝐈 𝐚𝐦 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 '𝐅𝐢𝐥𝐞 𝐭𝐨 𝐋𝐢𝐧𝐤 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐨𝐫 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 𝐁𝐨𝐭' 𝐰𝐢𝐭𝐡 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐬𝐮𝐩𝐩𝐨𝐫𝐭. \n𝐒𝐞𝐧𝐝 𝐦𝐞 𝐚𝐧𝐲 𝐟𝐢𝐥𝐞 𝐚𝐧𝐝 𝐠𝐞𝐭 𝐚 𝐝𝐢𝐫𝐞𝐜𝐭 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐥𝐢𝐧𝐤 𝐚𝐧𝐝 𝐬𝐭𝐫𝐞𝐚𝐦𝐚𝐛𝐥𝐞 𝐥𝐢𝐧𝐤.! \n\n𝐅𝐢𝐫𝐬𝐭 𝐛𝐮𝐲 𝐭𝐡𝐞 𝐩𝐫𝐞𝐦𝐢𝐮𝐦 𝐚𝐧𝐝 𝐉𝐨𝐢𝐧 𝐭𝐡𝐞 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 𝐜𝐡𝐚𝐧𝐧𝐞𝐥. 𝐎𝐧𝐥𝐲 50𝐫𝐬/𝐦𝐨𝐧𝐭𝐡. \n\n𝐂𝐨𝐧𝐭𝐚𝐜𝐭:- [@𝐈𝐫𝐟𝐚𝐧50786](https://t.me/Irfan50786)",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Jᴏɪɴ ɴᴏᴡ 🔓", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
+                            InlineKeyboardButton("Jᴏɪɴ ɴᴏᴡ 🔓", url=f"https://t.me/+kLmiK2PhEyU1NmFl")
                         ]
                     ]
                 ),
@@ -76,8 +76,8 @@ async def start(b, m):
             return
     await StreamBot.send_photo(
         chat_id=m.chat.id,
-        photo ="https://telegra.ph/file/19eeb26fa2ce58765917a.jpg",
-        caption =f'Hi {m.from_user.mention(style="md")}!,\nI am Telegram File to Link Generator Bot with Channel support.\nSend me any file and get a direct download link and streamable link.!',
+        photo ="https://telegra.ph/file/ec70f57fe79b1cb8ce8c0.jpg",
+        caption =f'Hi {m.from_user.mention(style="md")}!,\n𝐈 𝐚𝐦 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐅𝐢𝐥𝐞 𝐭𝐨 𝐋𝐢𝐧𝐤 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐨𝐫 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 𝐁𝐨𝐭 𝐰𝐢𝐭𝐡 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐬𝐮𝐩𝐩𝐨𝐫𝐭. \n𝐒𝐞𝐧𝐝 𝐦𝐞 𝐚𝐧𝐲 𝐟𝐢𝐥𝐞 𝐚𝐧𝐝 𝐠𝐞𝐭 𝐚 𝐝𝐢𝐫𝐞𝐜𝐭 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐥𝐢𝐧𝐤 𝐚𝐧𝐝 𝐬𝐭𝐫𝐞𝐚𝐦𝐚𝐛𝐥𝐞 𝐥𝐢𝐧𝐤.!',
         reply_markup=buttonz)
 
 
@@ -103,7 +103,7 @@ async def help_handler(bot, message):
         except UserNotParticipant:
             await StreamBot.send_photo(
                 chat_id=message.chat.id,
-                photo="https://telegra.ph/file/ca10e459bc6f48a4ad0f7.jpg",
+                photo="https://telegra.ph/file/ec70f57fe79b1cb8ce8c0.jpg",
                 Caption="**𝙹𝙾𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 𝚃𝙾 𝚄𝚂𝙴 ᴛʜɪs Bᴏᴛ!**\n\n__Dᴜᴇ ᴛᴏ Oᴠᴇʀʟᴏᴀᴅ, Oɴʟʏ Cʜᴀɴɴᴇʟ Sᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ Bᴏᴛ!__",
                 reply_markup=InlineKeyboardMarkup(
                     [
