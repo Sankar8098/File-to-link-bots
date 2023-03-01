@@ -11,7 +11,7 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = 23990433
     API_HASH = "e6c4b6ee1933711bc4da9d7d17e1eb20"
-    BOT_TOKEN = "5822452610:AAEENVB1jI1cIaqI9Wsxxwl_I9ANSHLaQ20"
+    BOT_TOKEN = "5822452610:5977289238:AAGgHF_dM37XF-87o4jPX-MMx5Y5JSRNbc0"
     name = str(getenv('name', 'filetolinkbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
@@ -29,7 +29,7 @@ class Var(object):
     
     else:
         ON_HEROKU = False
-    FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
+    FQDN = str(getenv('FQDN', "https://files-share-link.onrender.com")) if not ON_HEROKU or getenv('FQDN','https://files-share-link.onrender.com') else APP_NAME+'.herokuapp.com'
     HAS_SSL=bool(getenv('HAS_SSL',False))
     if HAS_SSL:
         URL = "https://{}/".format(FQDN)
